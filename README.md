@@ -1,6 +1,6 @@
-# Code and data repository for "Bayesian dynamic autoregressive models for count data: an application to COVID-19 epidemic in Italy and United States"
+# Code and data repository for "Bayesian time-varying autoregressive models of COVID-19 epidemics"
 
-This repository hosts code and data necessary to reproduce the results in: Arkaprava R., Giudici P. and Tarantino B., "Bayesian dynamic autoregressive models for count data: an application to COVID-19 epidemic in Italy and United States".
+This repository hosts code and data necessary to reproduce the results in: Arkaprava R., Giudici P. and Tarantino B., "Bayesian time-varying autoregressive models of COVID-19 epidemics".
 
 Codes to fit Bayesian dynamic Poisson log-link models including constant or time-varying coefficients for count data. 
 
