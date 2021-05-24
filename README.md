@@ -27,3 +27,7 @@ The `functions` folder contains the main wrappers to fit Bayesian models, obtain
 -   `posterior_help.R` and `main_functions.R`: Create posterior diagnostics by summarising informations from model object, i.e. posterior coefficients, predictions and error metrics.
 
 -   `plot.R`: Create descriptive plots from posterior diagnostics object.
+
+## Acknowledgements
+
+This research has received funding from the European Union’s Horizon 2020 research and innovation program “PERISCOPE: Pan European Response to the ImpactS of COvid- 19 and future Pandemics and Epidemics”, under the grant agreement No 101016233, H2020-SC1- PHE CORONAVIRUS-2020-2-RTD).
