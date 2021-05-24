@@ -7,3 +7,23 @@ Codes to fit Bayesian dynamic Poisson log-link models including constant or time
 BAYES_log fits time-constant AR(p), INGARCH(p,q), ARX(p), INGARCHX(p,q) model; tvBAYES_log fits time-varying AR(p), INGARCH(p,q), ARX(p), INGARCHX(p,q) model.
 
 Application to COVID-19 data is provided. 
+
+## R Code
+
+The R code files allows to fit Bayesian dynamic Poisson log-link models including time-constant or time-varying coefficients for count data. The file structure can be summarised as follows: 
+
+-   `coding_npi.R`: Loads the original COVID-19 data and OxCGRT data, transform ordinal NPI covariates in combination of binary policy measures and creates a wide dataframe that includes count data and policy variables. It creates one dataset for each country specified in the initial character vector. 
+
+-   `main.R`: Main script to fit Bayesian time-costant/time-varying autoregressive models of COVID-19 epidemics. At the end, posterior diagnostics is returned together with the plot of true vs predicted values. 
+
+The `functions` folder contains the main wrappers to fit Bayesian models, obtain posterior diagnostics and some useful plots: 
+
+-   `BAYES_log.R`: The functions to fit time-constant AR(p), INGARCH(p,q), ARX(p), INGARCHX(p,q) model for count data.
+
+-   `tvBAYES_log.R` : The functions to fit time-varying AR(p), INGARCH(p,q), ARX(p), INGARCHX(p,q) model for count data.
+
+-   `HMC.R`: The function to fit Hamiltonian Monte Carlo sampling.
+
+-   `posterior_help.R` and `main_functions.R`: Create posterior diagnostics by summarising informations from model object, i.e. posterior coefficients, predictions and error metrics.
+
+-   `plot.R`: Create descriptive plots from posterior diagnostics object.
