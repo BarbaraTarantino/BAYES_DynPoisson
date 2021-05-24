@@ -1,6 +1,6 @@
 # Code and data repository for "Bayesian time-varying autoregressive models of COVID-19 epidemics"
 
-This repository hosts code and data necessary to reproduce the results in: Arkaprava R., Giudici P. and Tarantino B., "Bayesian time-varying autoregressive models of COVID-19 epidemics".
+This repository hosts code and data necessary to reproduce the results in: Arkaprava R., Giudici P. and Tarantino B., "Bayesian time-varying autoregressive models of COVID-19 epidemics". Application to Italy and US COVID-19 data is provided. 
 
 ## R Code
 
