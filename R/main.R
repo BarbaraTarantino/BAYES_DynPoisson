@@ -49,6 +49,3 @@ fit_pred <- bayes.predict(fit, data_list,
                           n.ahead = 7, validation = TRUE, xreg = TRUE, 
                           country = as.character(unique(df$Country)))
 
-# Plot true and predicted values over train and test horizon -------------------
-
-plot <- plot.pred.fcst(fit_post, fit_pred, data_list, country = as.character(unique(df$Country)), model)
